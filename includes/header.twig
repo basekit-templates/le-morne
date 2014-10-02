@@ -1,0 +1,23 @@
+<header class="bk-header">
+	<div class="details-background">
+		<div class="wrapper clearfix">
+			<div class="details-left">
+				{{widget('profile', 'header-address', { 'profileType':'address'})|raw}}
+			</div>
+			<div class="details-right">
+				{{widget('profile', 'header-phone', { 'profileType':'phone'})|raw}}
+			</div>
+		</div><!--end user-details-->
+	</div><!--end details-background -->
+
+	<div class="nav-brand wrapper">
+		<div class="nav">
+			{{widget('extendednavigation', 'header-navigation', {"align":"left"})|raw}}
+		</div>
+		<div class="brand">
+			{{widget('logo', 'header-logo', {"defaultlogo": asset('images/logo.png'),"showTplWidget":"0"})|raw}}
+			{{widget('companyname', 'header-companyname', {"business": "profile"})|raw}}
+		</div>
+	</div><!--end nav-brand -->
+
+</header>

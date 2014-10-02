@@ -1,0 +1,14 @@
+{% extends "layout.twig" %}
+{% block content %}
+
+{% include 'includes/header.twig' %}
+
+<div class="wrapper">
+	<div class="main">
+		{{zone('main')|raw}}
+	</div>
+</div><!--end main-->
+
+{% include 'includes/footer.twig' %}
+
+{% endblock %}
