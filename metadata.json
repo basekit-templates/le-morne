@@ -62,7 +62,7 @@
         "font1": {
             "font-family": "\"Josefin Sans\", \"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
             "font-size": "34px",
-            "font-weight": "400",
+            "font-weight": "600",
             "line-height": "49px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
