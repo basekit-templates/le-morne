@@ -349,14 +349,14 @@ footer .footer-profile {
 		  		display: block;
 		  		float: none;
 		  		width: 100%;
-		  		padding: 0.7em 0;
+		  		padding: 0;
 		  	}
 		  	a, span.text {
 		  		padding: 5px 15px 5px 0;
 		  		white-space: normal;
-		  		@media @tablet {
-		  			padding: 0 20px 0 0;
-		  		}
+		  		// @media @tablet {
+		  		// 	padding: 0 20px 0 0;
+		  		// }
 		  	}
 		  	&:hover ul {
 		  		border: 1px solid lighten(@color-swatch5, 50%);
@@ -374,7 +374,6 @@ footer .footer-profile {
 		  			margin-bottom: 0;
 		  			padding: 0;
 		  			@media @tablet {
-		  				padding: 15px 10px 11px 0;
 		  				border-bottom: 1px solid @color-swatch1;
 		  			}
 		  			&:last-child {
@@ -401,10 +400,11 @@ footer .footer-profile {
 					position: relative;
 					right: initial;
 					top: 1px;
+					left: -8px;
 				}
 				.text {
 					display: inline-block;
-					padding-right: 6px;					
+					padding: 5px 15px 5px 0;
 				}
 				&:hover {
 	  				span.text {
